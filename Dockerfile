@@ -58,3 +58,4 @@ EXPOSE 4039 4040 4038 4041 7472 7474 7475 7476 6463 6464 6465 6466
 # push: docker push kengz/aiva
 # to remove unused images: docker rmi -f $(docker images | grep "^<none>" | awk '{print $3}')
 # to remove all containers: docker rm `docker ps -aq`
+#TESTING deploying
